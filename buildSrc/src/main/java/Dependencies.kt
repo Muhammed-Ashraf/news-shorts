@@ -26,7 +26,7 @@ object Dependencies {
     val hiltAndroidCompiler by lazy { "com.google.dagger:hilt-compiler:${Versions.hilt}" }
     val hiltCompiler by lazy { "androidx.hilt:hilt-compiler:${Versions.hiltCompiler}" }
     val lifecycleRuntimeKtx by lazy { "androidx.lifecycle:lifecycle-runtime-ktx:${Versions.lifeCycleRuntimeKtx}" }
-    val material3 by lazy { "androidx.compose.material3:material3" }
+    val material3 by lazy { "androidx.compose.material3:material3:${Versions.material3}" }
 
     val junit by lazy { "junit:junit:${Versions.junit}" }
     val junitInstrumentationTest by lazy { "androidx.test.ext:junit:${Versions.junitInstrumentTest}" }

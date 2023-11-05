@@ -22,6 +22,7 @@ object Versions {
     const val hilt = "2.44.2"
     const val hiltCompiler = "1.1.0"
     const val lifeCycleRuntimeKtx = "2.6.2"
+    const val material3 = "1.1.2"
 
     const val junit = "4.13.2"
     const val junitInstrumentTest = "1.1.5"

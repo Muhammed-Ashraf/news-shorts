@@ -37,6 +37,6 @@ dependencies {
     implementation(Dependencies.coreKtx)
     implementation(Dependencies.appCompat)
 //    implementation("com.google.android.material:material:1.10.0")
-    implementation(Dependencies.material3)
+//    implementation(Dependencies.material3)
 
 }
