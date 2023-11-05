@@ -16,8 +16,11 @@ object Versions {
 //    debugImplementation("androidx.compose.ui:ui-test-manifest")
 
     const val activityCompose = "1.8.0"
+    const val appCompatVersion = "1.6.1"
     const val composeBom = "2023.03.00"
     const val coreKtx = "1.9.0"
+    const val hilt = "2.44.2"
+    const val hiltCompiler = "1.1.0"
     const val lifeCycleRuntimeKtx = "2.6.2"
 
     const val junit = "4.13.2"

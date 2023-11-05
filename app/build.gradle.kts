@@ -1,6 +1,8 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    kotlin("kapt")
+    id("dagger.hilt.android.plugin")
 }
 
 android {
@@ -57,6 +59,9 @@ dependencies {
     implementation(Dependencies.composeUi)
     implementation(Dependencies.composeUiGraphics)
     implementation(Dependencies.composeToolingPreview)
+    implementation(Dependencies.hilt)
+    kapt(Dependencies.hiltCompiler)
+    kapt(Dependencies.hiltAndroidCompiler)
     implementation(Dependencies.material3)
 
     testImplementation(Dependencies.junit)
@@ -67,6 +72,13 @@ dependencies {
 
     debugImplementation(Dependencies.composeUiTooling)
     debugImplementation(Dependencies.composeUiTestManifest)
+
+    implementation(project(Modules.utilities))
 }
 
 
+
+
+kapt{
+    correctErrorTypes = true //for hilt
+}
